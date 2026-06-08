@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rotas com Dijkstra</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- PAINEL SUPERIOR -->
+        <section class="painel">
+
+            <!-- CABEÇALHO -->
+            <div class="topo">
+
+                <div>
+                    <p class="subtitulo">
+                        Trabalho de Grafo 3º Período
+                    </p>
+
+                    <h1>
+                        Simulador de rotas por menor tempo
+                    </h1>
+                </div>
+
+                <!-- CONTROLES -->
+                <div class="controles">
+
+                    <label>
+                        Origem
+                        <select id="origem"></select>
+                    </label>
+
+                    <label>
+                        Destino
+                        <select id="destino"></select>
+                    </label>
+
+                    <button onclick="calcular()">
+                        Calcular rota
+                    </button>
+
+                    <button class="secundario"
+                            onclick="resetar()">
+                        Limpar
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARDS DE RESULTADO -->
+            <div class="cards">
+
+                <div class="card">
+                    <span>Rota escolhida</span>
+                    <strong id="rota">-</strong>
+                </div>
+
+                <div class="card">
+                    <span>Distância total</span>
+                    <strong id="distancia">-</strong>
+                </div>
+
+                <div class="card">
+                    <span>Tempo total calculado</span>
+                    <strong id="tempo">-</strong>
+                </div>
+
+            </div>
+
+            <!-- LEGENDA -->
+            <div class="legenda">
+                <span><i class="normal"></i>Normal</span>
+                <span><i class="transito"></i>Trânsito, calcula com tempo maior</span>
+                <span><i class="obra"></i>Obra, calcula com tempo maior</span>
+                <span><i class="bloqueio"></i>Bloqueio, não entra na rota</span>
+                <span><i class="melhor"></i>Menor tempo</span>
+            </div>
+
+        </section>
+
+        <!-- MAPA -->
+        <section class="mapa-wrap">
+
+            <canvas id="mapa"
+                    width="1200"
+                    height="720">
+            </canvas>
+
+        </section>
+
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="/static/js/app.js"></script>
+
+</body>
+
+</html>
