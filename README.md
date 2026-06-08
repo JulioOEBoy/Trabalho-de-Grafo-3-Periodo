@@ -2,7 +2,7 @@
 <img width="1820" height="954" alt="image" src="https://github.com/user-attachments/assets/aec7b81d-21d9-470f-bbc9-5319531141c0" />
 
 
-Este projeto foi desenvolvido como avaliação (prova prática) da disciplina de Grafos do 3º período.
+Este projeto foi desenvolvido como avaliação (prova prática) da disciplina de Estruturas de Dados do 3º período.
 
 ## Objetivo
 
