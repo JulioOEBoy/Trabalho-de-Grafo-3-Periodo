@@ -1,5 +1,6 @@
 # Simulador de Rotas com Dijkstra
 <img width="1820" height="954" alt="image" src="https://github.com/user-attachments/assets/aec7b81d-21d9-470f-bbc9-5319531141c0" />
+<img width="1843" height="961" alt="image" src="https://github.com/user-attachments/assets/debab45a-f433-4c6a-ab3e-8915582ad9cc" />
 
 
 Este projeto foi desenvolvido como avaliação (prova prática) da disciplina de Estruturas de Dados do 3º período.
