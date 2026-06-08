@@ -1,4 +1,6 @@
 # Simulador de Rotas com Dijkstra
+<img width="1820" height="954" alt="image" src="https://github.com/user-attachments/assets/aec7b81d-21d9-470f-bbc9-5319531141c0" />
+
 
 Este projeto foi desenvolvido como avaliação (prova prática) da disciplina de Grafos do 3º período.
 
@@ -34,6 +36,13 @@ O sistema simula rotas entre diferentes pontos da cidade utilizando o algoritmo 
 ## Como Executar
 
 1. Abra o terminal na pasta do projeto.
+
+1.1 execute o comando
+
+```bash
+pip install Flask
+```
+
 2. Execute o comando:
 
 ```bash
