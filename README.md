@@ -44,6 +44,11 @@ Além do cálculo da melhor rota, a aplicação apresenta uma visualização gr�
 - 🔵 **Azul:** melhor rota encontrada pelo algoritmo.
 
 ---
+### Meios de exeecutar:
+
+## Abra o link
+
+https://trabalho-de-grafo-3-periodo.onrender.com
 
 ## Como Executar pelo visual
 
