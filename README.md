@@ -41,6 +41,12 @@ O sistema simula rotas entre diferentes pontos da cidade utilizando o algoritmo 
 1.1 execute o comando
 
 ```bash
+cd backend
+```
+
+1.2 execute o comando
+
+```bash
 pip install Flask
 ```
 
