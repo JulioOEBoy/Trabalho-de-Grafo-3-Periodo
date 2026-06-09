@@ -46,7 +46,7 @@ Além do cálculo da melhor rota, a aplicação apresenta uma visualização gr�
 ---
 ### Meios de exeecutar:
 
-## Abra o link
+## Abra o link do render
 
 https://trabalho-de-grafo-3-periodo.onrender.com
 
